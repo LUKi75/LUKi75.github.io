@@ -1,8 +1,10 @@
-.header {
-  background-color: #333;
-  color: white;
-  padding: 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+canvas {
+    background-color: #c4c4c4; /* Sky blue background */
+    display: block;
+    margin: 0 auto;
 }
