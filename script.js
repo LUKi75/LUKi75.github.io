@@ -94,11 +94,11 @@ function update() {
                 player.yv = 0;
             }
 	    if (player.y < 570) {
-	        if (player.xv > 0) {
+	        if (player.xv > 0 && player.x + player.width <= platform.x && player.x + player.width + player.xv > platform.x) {
                     player.x = platform.x - player.width;
                     player.xv = 0;
                 }
-                else if (player.xv < 0) {
+                else if (player.xv < 0 && player.x >= platform.x + platform.width && player.x + player.xv < platform.x + platform.width) {
                     player.x = platform.x + platform.width;
                     player.xv = 0;
                 }
