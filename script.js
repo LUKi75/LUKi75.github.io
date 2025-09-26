@@ -11,7 +11,7 @@ const player = {
     jumpForce: -12,
     gravity: 0.7,
     isGrounded: false,
-    levelX: 2,
+    levelX: 1,
     levelY: 1
 };
 
